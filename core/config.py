@@ -6,4 +6,5 @@ class Settings(BaseSettings):
     NUMBER_FROM: str
     NUMBER_TO: str
 
+
 settings = Settings()
