@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "twilio-whatsapp"
+version = "0.1.0"
+description = "Testing the Twilio API"
+authors = [ "Benjamin Labrecque" ]
+packages = [
+    { include = "core" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = "^0.7.0"
+pydantic = "^1.10.5"
+black = "^23.1.0"
+twilio = "^8.5.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+pre-commit = "^3.2.2"
+
+[tool.mypy]
+files = "core"
+strict = true
+namespace_packages = true
+explicit_package_bases = true
