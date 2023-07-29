@@ -11,12 +11,12 @@ packages = [
 python = "^3.8"
 typer = "^0.7.0"
 pydantic = "^1.10.5"
-black = "^23.1.0"
 twilio = "^8.5.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.1"
 pre-commit = "^3.2.2"
+black = "^23.1.0"
 
 [tool.mypy]
 files = "core"
