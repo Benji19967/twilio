@@ -6,4 +6,4 @@ POETRY_VERSION=1.5.1
 # `vlt config`
 # `vlt secrets`
 run:
-	vlt run -c 'python core/main.py'
+	vlt run -command 'python core/main.py'
